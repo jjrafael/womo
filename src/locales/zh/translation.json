@@ -1,0 +1,7 @@
+{
+  "title": "欢迎来到 {{subject}} 使用 react-i18next",
+  "description": {
+    "part1": "首先，编辑 <1>src/App.js</1> 并保存以重新加载.",
+    "part2": "使用上面的按钮在英语和德语之间切换语言"
+  }
+}

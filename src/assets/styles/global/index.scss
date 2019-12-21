@@ -1,0 +1,30 @@
+:global {
+  // bootstrap utilities
+  @import '@node_modules/bootstrap/scss/_functions';
+  @import '@node_modules/bootstrap/scss/_variables';
+  @import '@node_modules/bootstrap/scss/_mixins';
+  @import '@node_modules/bootstrap/scss/_utilities';
+  
+  @import './functions';
+  @import './variables';
+  @import './mixins';
+  @import './utilities';
+  @import './colors';
+
+  .primary-bg {
+    background: $primary;
+  }
+
+  .primary-text {
+    color: $primary;
+  }
+
+  .secondary-bg {
+    background: $secondary;
+  }
+
+  .secondary-text {
+    color: $secondary;
+  }
+}
+

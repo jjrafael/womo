@@ -1,0 +1,40 @@
+.searchForm {
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  font-weight: bold;
+}
+.body {
+  background: #fff;
+  min-height: 300px;
+}
+.header {
+  background: #42577E;
+  color: #fff;
+  line-height: 30px;
+  padding: 10px 15px;
+  
+  button {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 3px;
+    line-height: 26px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-left: 5px;
+    font-size: 16px;
+
+    &.btnPrimary {
+      background: #F39654;
+      border-color: transparent;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}

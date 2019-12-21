@@ -1,0 +1,14 @@
+{
+  "title": "Welcome to {{subject}} using react-i18next",
+  "description": {
+    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+    "part2": "Switch language between english and german using buttons above."
+  },
+  "key": "item",
+  "key_plural": "items",
+  "keyWithCount": "{{count}} item",
+  "keyWithCount_plural": "{{count}} items",
+  "key1": "{{count}} item",
+  "key1_plural": "{{count}} items",
+  "key1_interval": "(1){one item};(2-7){a few items};(7-inf){a lot of items};"
+}
